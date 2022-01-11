@@ -36,7 +36,7 @@ export const Div2 = styled.div`
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #181818;
+    background-color: #0F1624;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -48,6 +48,7 @@ export const Div2 = styled.div`
     font-size:18px;
     justify-content: start;
     align-items:center;
+    z-index:3;
     & > li {
       margin-top:80px;
     }
@@ -58,12 +59,26 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* border:1px solid blue; */
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    /* border:1px solid purple; */
+    margin-right:40px;
   }
   @media (max-width:768px){
         margin-right:40px
+        /* border:1px solid red; */
+    }
+    @media (max-width:485px){
+        margin-right:50px
+        /* border:1px solid green; */
+    }
+    @media (max-width:415px){
+        margin-right:60px
+    }
+    @media (max-width:395px){
+        margin-right:80px
     }
 `;
 
@@ -152,13 +167,16 @@ export const StyledBurger = styled.div`
     right:20px;
     z-index:20;
     display:none;
-    @media (max-width:768px){
-        display:flex;
-        justify-content:space-around;
-        flex-flow: column nowrap;
-    }
     @media ${(props) => props.theme.breakpoints.sm} {
       top:38px;
+
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+      top:38px;
+      display:flex;
+        justify-content:space-around;
+        flex-flow: column nowrap;
+
   }
     div{
         width:2rem;

@@ -68,11 +68,11 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  /* padding: 0 50px; */
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  /* text-align: justify; */
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
@@ -114,7 +114,7 @@ font-size: 1.5rem;
 export const Container = styled.div`
     padding: 10px 20px 10px 20px;
     margin:10px;
-    background-color:
+    background-color:#0e1421;
     background-size: cover;
     background-repeat: no-repeat;
     transition: opacity 0.4s ease-in;
@@ -126,7 +126,7 @@ export const Container = styled.div`
     /* min-height:500px; */
     align-items:center;
     justify-content: center;
-    border:1px solid #222222;
+    /* border:1px solid #222222; */
     & > h2 {
         color:white;
         margin:0;
@@ -175,6 +175,12 @@ export const Container2 = styled.div`
     /* padding-bottom:3rem; */
     z-index:1;
     min-height:auto;
+    /* @media ${(props) => props.theme.breakpoints.md} {
+      margin-top:50px;
+}
+    @media ${(props) => props.theme.breakpoints.sm} {
+      margin-top:80px;
+  } */
     /* background-color:#BBB; */
     @media (max-width: 768px) {
       flex-direction:column;
@@ -253,3 +259,4 @@ export const Content = styled.div`
         padding: 20px;
     } 
 `;
+
