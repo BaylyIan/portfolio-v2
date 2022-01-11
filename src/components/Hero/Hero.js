@@ -15,7 +15,8 @@ const Hero = (props) => (
       <SectionText>
         I’m a front-end developer based in Vancouver, BC specializing in building and designing exceptional, high quality websites and applications.
       </SectionText>
-      <Button label={'Contact me!'}>
+      <Button>
+        Contact me!
       <a href="mailto:ianbaylyy@gmail.com?body=Hi Ian!" />
       </Button>
     </LeftSection>
