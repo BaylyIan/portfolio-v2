@@ -127,6 +127,7 @@ export const Container = styled.div`
     align-items:center;
     justify-content: center;
     /* border:1px solid #222222; */
+    min-width:400px;
     & > h2 {
         color:white;
         margin:0;
@@ -209,31 +210,6 @@ export const Content = styled.div`
     grid-template-columns: minmax(200px, auto);
     /* grid-gap: 20px; */
     min-height: auto;
-    @media (min-width: 550px) {
-        grid-template-columns:${({ toggle }) => toggle ? 'repeat(2, minmax(200px, 1fr))' : null};
-        padding: 10px;
-    }
-    @media (min-width: 750px) {
-        grid-template-columns:${({ toggle }) => toggle ? 'repeat(3, minmax(200px, 1fr))' : null};
-        padding: 10px;
-    }
-    @media (min-width: 980px) {
-        grid-template-columns:${({ toggle }) => toggle ? 'repeat(4, minmax(200px, 1fr))' : null};
-        padding: 10px;
-    }
-    @media (min-width: 1200px) {
-        grid-template-columns:${({ toggle }) => toggle ? 'repeat(5, minmax(200px, 1fr))' : null};
-        padding: 10px;
-    }
-    @media (min-width: 1650px) {
-        grid-template-columns:${({ toggle }) => toggle ? 'repeat(6, minmax(200px, 1fr))' : null};
-        padding: 10px;
-    }
-    @media (min-width: 1900px) {
-        grid-template-columns:${({ toggle }) => toggle ? 'repeat(7, minmax(200px, 1fr))' : null};
-        padding: 20px;
-    }
-
     @media (min-width: 750px) {
         grid-template-columns:${({ toggle }) => toggle ? null : 'repeat(2, minmax(200px, 1fr))'};
         padding: 10px;
@@ -242,21 +218,5 @@ export const Content = styled.div`
         grid-template-columns:${({ toggle }) => toggle ? null : 'repeat(3, minmax(200px, 1fr))'};
         padding: 10px;
     }
-    @media (min-width: 1250px) {
-        grid-template-columns:${({ toggle }) => toggle ? null : 'repeat(4, minmax(200px, 1fr))'};
-        padding: 10px;
-    }
-    @media (min-width: 1450px) {
-        grid-template-columns:${({ toggle }) => toggle ? null : 'repeat(5, minmax(200px, 1fr))'};
-        padding: 10px;
-    }
-    @media (min-width: 1750px) {
-        grid-template-columns:${({ toggle }) => toggle ? null : 'repeat(6, minmax(200px, 1fr))'};
-        padding: 10px;
-    }
-    @media (min-width: 2090px) {
-        grid-template-columns:${({ toggle }) => toggle ? null : 'repeat(7, minmax(200px, 1fr))'};
-        padding: 20px;
-    } 
 `;
 

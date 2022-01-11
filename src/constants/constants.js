@@ -64,6 +64,14 @@ export const projects = [
             image:'/images/crypto.png'
         },
         {
+            title: 'Portfolio V1',
+            role: 'Front-end Developer',
+            desc: 'My first web development portfolio! Built using React and styled componenets to showcase my projects and tell the world a little bit about myself. ',
+            github: "https://github.com/BaylyIan/Portfolio",
+            demo: "https://portfolio-iota-blond.vercel.app/",
+            image:'/images/portfoliov1.png'
+        },
+        {
             title: 'Medicine Tracker',
             role: 'Full-Stack Developer ',
             desc: 'Our team was assigned to build a to-do list application with various sorting/filtering features features. Using React, MySql and Express, we built a medication tracker which allows you to keep track of all your medications for the day. ',
