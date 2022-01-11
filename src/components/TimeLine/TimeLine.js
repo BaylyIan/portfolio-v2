@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        My timeline in web development
+      Hello! My name is Ian Bayly, a front-end developer and UX/UI designer based in <span style={{color:"#64FFDA"}}>Vancouver, BC.</span> <br/><br/>I develop exceptional websites and applications that provide intuitive, pixel-perfect user interfaces. I strive to enhance user satisfaction in anything that I make. I am a well-organized person, a problem solver, I pay high attention to detail, and also a capable leader.<br/><br/> Recently graduated from the <span style={{color:"#64FFDA"}}>British Columbian Institute of Technology</span> I am interested in opportunities to further my skills and connect with people.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

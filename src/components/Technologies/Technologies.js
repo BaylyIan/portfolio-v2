@@ -7,8 +7,8 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world.
-      From Back-End to Design
+      I've worked with a range of technologies in the web development world,
+      from Back-End to Design
     </SectionText>
     <List>
       <ListItem>
@@ -17,7 +17,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, HTML, CSS, and Javascript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,7 +37,7 @@ const Technologies = () =>  (
           <ListTitle>UI / UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools such as Figma and AdobeXD
+            design tools such as Figma and AdobeXD
           </ListParagraph>
         </ListContainer>
       </ListItem>
