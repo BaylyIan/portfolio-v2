@@ -50,10 +50,18 @@ export const projects = [
         {
             title: 'Replay',
             role: 'Full-Stack Developer',
-            desc: 'A social media application built around the love of music. Create playlists and share them with your fiends.',
+            desc: 'A social media application built around the love of music. Create playlists and share them with your friends.',
             github: 'https://github.com/BaylyIan/replay-v2',
             demo: 'https://replay-v2.vercel.app/',
             image:'/images/replay.png',
+        },
+        {
+            title: 'Uber Clone',
+            role: 'Full-Stack Developer',
+            desc: 'An Uber Clone built with React Native, Redux, and Google API.',
+            github: 'https://github.com/BaylyIan/UberClone',
+            demo: 'https://expo.dev/@ianbayly/uberclone',
+            image:'/images/uber.png',
         },
         {
             title: 'Cryptoverse',

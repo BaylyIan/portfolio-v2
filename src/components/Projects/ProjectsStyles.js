@@ -113,7 +113,7 @@ font-size: 1.5rem;
 
 export const Container = styled.div`
     padding: 10px 20px 10px 20px;
-    margin:10px;
+    /* margin:10px; */
     background-color:#0e1421;
     background-size: cover;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ export const Container = styled.div`
     align-items:center;
     justify-content: center;
     /* border:1px solid #222222; */
-    min-width:400px;
+    /* min-width:400px; */
     & > h2 {
         color:white;
         margin:0;
@@ -139,6 +139,8 @@ export const Cover = styled.div`
     display:flex;
     object-fit:cover;
     overflow:hidden;
+    align-items:center;
+    justify-content:center;
     /* border:1px solid purple; */
     & > img {
         height:100%;
