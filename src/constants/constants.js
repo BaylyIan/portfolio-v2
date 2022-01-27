@@ -50,7 +50,7 @@ export const projects = [
         {
             title: 'Replay',
             role: 'Full-Stack Developer',
-            desc: 'A social media application built around the love of music. Create playlists and share them with your friends.',
+            desc: 'A social media application built around the love of music. Create playlists and share them with your friends. Built with Next.js, Node.js, Express.js, and AWS S3 Buckets',
             github: 'https://github.com/BaylyIan/replay-v2',
             demo: 'https://replay-v2.vercel.app/',
             image:'/images/replay.png',
