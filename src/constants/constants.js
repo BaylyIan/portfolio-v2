@@ -102,5 +102,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Started my journey in web development', },
   { year: 2019, text: 'Studied Digital Design and Development at the British Columbian Institute of Technology', },
   { year: 2020, text: 'Built my first large scale projects as a full-stack developer', },
-  { year: 2021, text: 'Got my first real web development job at Techies of Tomorrow', },
+  { year: 2021, text: 'Got my first web development job at Techies of Tomorrow', },
 ];
